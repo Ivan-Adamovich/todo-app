@@ -1,11 +1,37 @@
 body {
   margin: 0;
+  background-color: rgb(250, 250, 250);
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.AppSidebarMenu{
+  transition-property: width;
+  transition-duration: 0.15s;
+}
+
+.AppReightContent{
+  transition-property: width;
+  transition-duration: 0.15s;
+}
+
+/* .TaskList::-webkit-scrollbar{
+  width: 8px;
+  background-color:rgb(250, 250, 250);
+}
+
+.TaskList::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgb(220, 220, 220);
+}
+
+.TaskList::-webkit-scrollbar-track {
+  background-color:rgb(250, 250, 250);
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
